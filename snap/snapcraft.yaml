@@ -4,7 +4,7 @@ summary: Gaphor is the simple modeling tool
 description: |
   Gaphor is the simple modeling tool
 icon: snap/gui/gaphor.svg
-license: GPL-3.0
+license: Apache-2.0
 
 base: core24
 grade: stable
@@ -31,15 +31,11 @@ apps:
       - x11
       - wayland
       - gsettings
-      - pulseaudio
       - browser-support
       - home
       - network
-      - audio-playback
-      - audio-record
       - removable-media
       - unity7
-      - screen-inhibit-control
 
 parts:
   gaphor:
